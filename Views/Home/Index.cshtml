@@ -1,0 +1,464 @@
+﻿@model Capstone_23_Proteine.Models.Domain.AboutMe
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="text-align: center; max-inline-size: 1900px;">
+    <div class="row" style=" background-color:#ffff; padding:25px; border-radius:45px; box-shadow: 15px 15px 20px rgba(0.05,0.05,0.05,0.05);">
+        <div class="col-3 border" style="border-radius:45px;">
+           
+            <div class="row">
+                <img src="/Image/Profile.png" alt="Not Logged In" />               
+            </div>
+            
+            <div class="text-center">
+                <!--the tags below are headers for the options that the user chose in the "About Me" page,
+                the information will be imported next to these headers for the user to view-->
+                <h1>My Details</h1>
+                <br />
+              
+            </div>
+            <div style="text-align:left;">
+                <div>
+                    <p>Name: @ViewBag.Firstname @ViewBag.Lastname</p>
+                    <p>Height: @ViewBag.Height cm</p>
+                    <p>Weight: @ViewBag.Weight kg</p>
+                    <p>DietaryOptions: @ViewBag.DietaryOptions</p>
+
+                </div>
+
+                              
+                <!--this is the code for the edit button, this leads the user to the about me page where they can update their profile-->
+                <script>
+                    function openWins() {
+                        window.open("../AboutMe/AboutMe");
+                    }
+                </script>
+
+                <form>
+                    <input type="button" value="Edit" onclick="openWins()">
+                </form>
+            </div>
+        </div>
+
+        <!--Daily summary below-->
+
+        <div class="col-4">
+            <div class="row">
+                <p style="font-size: 40px; text-align: center; margin-inline-start: 115px; color: #8DA242;"> Hello @ViewBag.Firstname!</p>
+                <p style="font-size: 30px; text-align: center; margin-inline-start: 115px;"> This is your Daily Summary </p>
+            </div>
+
+            <div class="row">
+                <p style="font-size: 25px; text-align:center; margin-inline-start:115px; color: #8DA242;">Nutrients Consumed Today: </p>
+                <p style="font-size: 20px; text-align: center; margin-inline-start: 115px;">Calories @ViewBag.TotalCalories g/@ViewBag.SetCalories g</p>
+            </div>
+
+             <div class="row">
+                <p style="font-size: 20px; text-align: center; margin-inline-start: 115px;"> Protein @ViewBag.TotalProtein g/@ViewBag.SetProtein g</p>
+            </div>
+
+             <div class="row">
+                <p style="font-size: 20px; text-align: center; margin-inline-start: 115px;">Fat @ViewBag.TotalFat g/@ViewBag.SetFat g</p>
+            </div>
+        <!--Daily summary Ends-->
+
+
+            <!--Set Goals Starts-->
+            <!-- A button to open the popup form -->
+
+
+            <button class="btn btn-primary" style="width: 150px; margin-left: 200px; background-color: #8DA242; border-color: #8DA242; margin-bottom:20px;" onclick="openForm()">Set Goals</button>
+
+            <!-- The form -->
+            <div class="form-popup" id="myForm">
+                <form  method="post" asp-controller="SetGoals" asp-action="SetGoals" class="mt-5" onsubmit="return validateForm()">
+
+                    <div class="foodIntakeAlign , text-left">
+
+                        <div class="mb-3">
+                            <label for="SetProtein" class="form-label">Set Protein Goals (g)</label>
+                            <input type="number" class="form-control" id="SetProtein" name="SetProtein" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="SetCalories" class="form-label">Set Calories Goals (g)</label>
+                            <input type="number" class="form-control" id="SetCalories" name="SetCalories" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="SetFat" class="form-label">Set Fat Goals (g)</label>
+                            <input type="number" class="form-control" id="SetFat" name="SetFat" required>
+                        </div>
+
+                        <div class="btn">
+                            <button style="background-color: white; border-color: white;" type="submit" class="btn btn-primary"> <font color="Black">Submit</font></button>
+                        </div>
+
+                        <div class="cancel">
+                            <button style="background-color: red; border-color: red;" type="button" class="btn btn-primary" onclick="closeForm()"><font color="Black">Cancel</font></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <style>
+                {
+                    box-sizing: border-box;
+                }
+
+
+                /* The popup form - hidden by default */
+                .form-popup {
+                    display: none;
+                    margin-left:200px;
+                    bottom: 0;
+                    border: 10px solid #8DA242;
+                    background-color: #8DA242;
+                }
+
+                /* Add styles to the form container */
+                .form-container {
+                    max-width: 300px;
+                    padding: 10px;
+                    background-color: white;
+                }
+
+                    /* Full-width input fields */
+                    .form-container  {
+                        width: 100%;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        border: none;
+                        background: #f1f1f1;
+                        
+                    }
+
+                        /* When the inputs get focus, do something */
+                        .form-container input[type=text]:focus, .form-container { 
+                            background-color: #ddd;
+                            outline: none;
+                        }
+
+                    /* Set a style for the submit/login button */
+                    .form-container .btn {
+                        color: black;
+                        padding: 16px 20px;
+                        border: none;
+                        cursor: pointer;
+                        width: 100%;
+                        margin-bottom: 10px;
+                        opacity: 0.8;
+                    }
+
+                    /* Add a red background color to the cancel button */
+                    .form-container .cancel {
+                        background-color: red;
+                    }
+
+                    /* Add some hover effects to buttons */
+                    .form-container .btn:hover, .open-button:hover {
+                        opacity: 1;
+                    }
+
+
+            </style>
+            <script>
+
+                function openForm() {
+                    document.getElementById("myForm").style.display = "block";
+                }
+
+                function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                }
+            </script>
+            <!--Set Goals End-->
+
+
+
+            <br />
+            <div class="row" style="text-align: center">
+                <script>
+                    function OpenWin() {
+                        window.open("/FoodIntake/FoodIntake");
+                    }
+                </script>
+                <input type="button" value="Add Meal" onclick="OpenWin()" onchange="calculateValues()" style="margin-inline-start:170px; width: 300px; background-color: #A7BC5B; border-color: #A7BC5B ;">
+                <label for="Activity"></label>
+                <select name="Activity" id="Activity" style="margin-inline-start:170px; width:300px;">
+                    <option value="User Activity">User Activity</option>
+                    <option value="Regular Active">Regular Active</option>
+                    <option value="Medium Active">Medium Active</option>
+                    <option value="Not Active">Not Active</option>
+                </select>
+                <input type="submit" id="BTNSub" value="Submit" style="margin-inline-start:170px; width:300px; background-color: #A7BC5B; border-color: #A7BC5B ;" />
+
+                <br />
+                
+                
+            </div>
+
+        </div>
+
+        <script>
+            function calculateValues() {
+                // Get the selected option
+                var activityDropdown = document.getElementById("Activity");
+                var selectedOption = activityDropdown.options[activityDropdown.selectedIndex].value;
+
+                // Get the current values
+                var calories = parseFloat(document.getElementById("caloriesValue").textContent);
+                var protein = parseFloat(document.getElementById("proteinValue").textContent);
+                var fat = parseFloat(document.getElementById("fatValue").textContent);
+
+                // Define the multiplier based on the selected option
+                var multiplier;
+                if (selectedOption === "Regular Active") {
+                    multiplier = 3;
+                } else if (selectedOption === "Medium Active") {
+                    multiplier = 2;
+                } else if (selectedOption === "Not Active") {
+                    multiplier = 1.5;
+                } else {
+                    multiplier = 1; // Default multiplier if no option is selected
+                }
+
+                // Calculate the new values
+                var newCalories = calories * multiplier;
+                var newProtein = protein * multiplier;
+                var newFat = fat * multiplier;
+
+                // Update the displayed values
+                document.getElementById("caloriesValue").textContent = newCalories.toFixed(2);
+                document.getElementById("proteinValue").textContent = newProtein.toFixed(2);
+                document.getElementById("fatValue").textContent = newFat.toFixed(2);
+            }
+        </script>
+
+        <div class="col border" style=" margin-inline-start: 200px; border-radius:45px ;">
+            <div class="card-group">
+                <div class="card-title">
+                    <h5 style="text-align: center; font-size: 30px; color: #8DA242;">More To Know</h5>
+                    <div class="card-body" style="max-width: 300px ; text-align: center ;">
+                        <p>
+                            What to Eat and Avoid For Better Sleep<br />
+                            Take a deeper look at how diet affects athletes’ sleep.<br />
+                            <a href="@Url.Action("Sleep","Home")" style="color:  #8DA242;">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card-body" style="max-width: 300px ; text-align: center ;">
+                    <p>
+                        The Performance Benefits of the Mediterranean Diet<br />
+                        The Mediterranean diet has many benefits that go beyond good health to good performance<br />
+                        <a href="@Url.Action("Mediterranean_Diet","Home")" style="color:  #8DA242;">Read More</a>
+                    </p>
+                </div>
+                <div class="card-body" style="max-width: 300px ; text-align: center ; ">
+                    <p>
+                        This Is the Quickest Way to Boost Your Mood<br />
+                        Research shows spending too much time sitting could take its toll on your mental health, increasing the risk of depression.<br />
+                        <a href="@Url.Action("Mood","Home")" style="color:  #8DA242;">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+
+
+
+
+
+
+
+
+<div style=" background-color: white; padding:25px; border-radius:45px; box-shadow: 15px 15px 20px rgba(0,0,0,0.05);">
+
+    <div>
+        <h1>Recipes</h1>
+        <p>Your next meal</p>
+    </div>
+    <div id="Food" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="  cards-wrapper  ">
+
+                    <!-- first item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Crispy_Falafels","Home")"> <img class="card-img-top" src="/Image/SOme_cryspy.png" alt="Card image cap" width="150px" height="150px"> </a>
+                        <div class="card-body">
+                            <p class="card-text"> Crispy Spiced Falafels </p>
+                        </div>
+                    </div>
+
+                    <!-- secound item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Spanish_pisto","Home")"> <img class="card-img-top" src="~/Image/spanish_Something.png" alt="Card image cap" width="150px" height="150px"></a>
+                        <div class="card-body">
+                            <p class="card-text"> Spanish Pisto </p>
+                        </div>
+                    </div>
+
+
+
+                    <!-- third item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Veggie_nachos","Home")">
+                            <img class="card-img-top" src="/Image/Nacho_veggie.png" alt="Card image cap" width="150px" height="150px">
+                            </a>
+                        <div class="card-body">
+                            <p class="card-text"> Veggie Nachos </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <div class=" cards-wrapper">
+
+                    <!-- first item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Rainbow_chicken","Home")">
+
+                        <img class="card-img-top" src="/Image/Rainbow_chickenSalad.png" alt="Card image cap" width="150px" height="150px">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"> Rainbow Chicken Slaw </p>
+                        </div>
+                    </div>
+
+
+                    <!-- secound item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Lamb","Home")">
+                        <img class="card-img-top" src="/Image/Mediterranean-Lamb_recipeimage.png" alt="Card image cap" width="150px" height="150px">
+                       </a>
+                        <div class="card-body">
+                            <p class="card-text"> Mediterranean Lamb </p>
+                        </div>
+                    </div>
+
+
+                    <!-- third item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("MEd_salad","Home")">
+
+                        <img class="card-img-top" src="/Image/Mediterranean-Salad-with-Pea-Falafels_recipeimage.png" alt="Card image cap" width="150px" height="150px">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"> Mediterranean Salad with Pea Falafels </p>
+                        </div>
+                    </div>
+                 
+
+                </div>
+
+
+
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+
+
+                    <!-- first item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Chicken_and_","Home")">
+                        <img class="card-img-top" src="/Image/Chicken-and-Mushroom-Filo-Parcels_recipeimage.png" alt="Card image cap" width="150px" height="150px">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"> Chicken and Mushroom Filo Parcels </p>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- secound item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Chicken_pad","Home")">                    
+                        <img class="card-img-top" src="/Image/Quick-and-Easy-Chicken-Pad-Thai.png" alt="Card image cap" width="150px" height="150px">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text"> Quick and Easy Chicken Pad Thai </p>
+                        </div>
+                    </div>
+
+
+
+                    <!-- third item-->
+                    <div class="card" style="width: 18rem;">
+                        <a href="@Url.Action("Pie_vegg","Home")">
+                        <img class="card-img-top" src="~/Image/Veg-Cottage-Pie.png" alt="Card image cap" width="150px" height="150px">
+                         </a>
+                        <div class="card-body">
+                            <p class="card-text"> Vegetarian Cottage Pie </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            
+
+            </div>
+
+        </div>
+
+        
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#Food" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Food" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+</div>
+
+
+
+<br />
+
+
+
+
+
+<div style=" background-color:#ffff; padding:25px; border-radius:45px; box-shadow: 15px 15px 20px rgba(0,0,0,0.05);">
+
+    <div style ="text-align:center;">
+        <img src="~/Image/strength_sages_ad.png" />
+    </div>
+
+    <div>
+        <p style="text-align:center; margin-inline-start: 110px;"></p>
+        <p style ="text-align:center; margin-inline-start: 110px;">
+            
+            Interested in Building workouts?
+            <a href="https://strengthsages.com/" style="color:  #8DA242;">Check out the Strength Sages Now!</a>
+        </p>
+    </div>
+
+    
+    
+    
+</div>
+
