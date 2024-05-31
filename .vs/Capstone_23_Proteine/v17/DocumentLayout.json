@@ -1,25 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\",
+  "WorkspaceRootPath": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\theek\\source\\repos\\christopherdronjak\\capstoneproteine2024\\data\\migrations\\20230525030430_userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nzbob\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\data\\migrations\\20230525030430_userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:data\\migrations\\20230525030430_userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\theek\\source\\repos\\christopherdronjak\\capstoneproteine2024\\data\\migrations\\20230518232513_foreignkeyupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\data\\migrations\\20230518232513_foreignkeyupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:data\\migrations\\20230518232513_foreignkeyupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\theek\\source\\repos\\christopherdronjak\\capstoneproteine2024\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\theek\\source\\repos\\christopherdronjak\\capstoneproteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,19 +36,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\nzbob\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "ToolTip": "C:\\Users\\nzbob\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T23:33:14.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAC9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T23:32:35.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "20230525030430_UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Data\\Migrations\\20230525030430_UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230525030430_UserProfile.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230525030430_UserProfile.cs",
-              "ToolTip": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Data\\Migrations\\20230525030430_UserProfile.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230525030430_UserProfile.cs",
               "RelativeToolTip": "Data\\Migrations\\20230525030430_UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -50,55 +87,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "20230518232513_ForeignKeyUpdate.cs",
-              "DocumentMoniker": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
-              "ToolTip": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
               "RelativeToolTip": "Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T06:32:48.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T06:32:48.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
               "ToolTip": "C:\\Users\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T05:34:12.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T05:34:12.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T05:56:13.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T05:56:13.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Program.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwFMAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T05:36:14.151Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
