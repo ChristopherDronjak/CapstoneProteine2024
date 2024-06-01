@@ -20,7 +20,7 @@ public class Program
         var services = builder.Services;
 
         // Retrieve SendGrid API key from Azure Vault
-        string vaultUri = "https://proteinekeyvault.vault.azure.net/";
+        string vaultUri = "https://proteineprotection.vault.azure.net/";
         string sendGridApiKeySecretName = "SendGridKey";
 
         var credential = new DefaultAzureCredential();
@@ -72,19 +72,19 @@ public class Program
         app.UseAuthentication();
         app.UseAuthorization();
 
-        /*----create Admin accounts----*/
-        using (var scope = app.Services.CreateScope())
-        {
-            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        ///*----create Admin accounts----*/
+        //using (var scope = app.Services.CreateScope())
+        //{
+        //    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-            var roles = new[] { "Admin", "Manager", "Member" };
+        //    var roles = new[] { "Admin", "Manager", "Member" };
 
-            foreach (var role in roles)
-            {
-                if (!await roleManager.RoleExistsAsync(role))
-                    await roleManager.CreateAsync(new IdentityRole(role));
-            }
-        }
+        //    foreach (var role in roles)
+        //    {
+        //        if (!await roleManager.RoleExistsAsync(role))
+        //            await roleManager.CreateAsync(new IdentityRole(role));
+        //    }
+        //}
 
         /*----User----*/
         using (var scope = app.Services.CreateScope())
@@ -94,21 +94,21 @@ public class Program
             string email = "admin@admin.com";
             string password = "adminPass1!";
 
-            /*find account*/
-            if (await userManager.FindByEmailAsync(email) == null)
-            {
-                /*create account*/
-                var user = new IdentityUser();
-                user.UserName = email;
-                user.Email = email;
-                user.EmailConfirmed = false;
+            ///*find account*/
+            //if (await userManager.FindByEmailAsync(email) == null)
+            //{
+            //    /*create account*/
+            //    var user = new IdentityUser();
+            //    user.UserName = email;
+            //    user.Email = email;
+            //    user.EmailConfirmed = false;
 
-                /*register user in database*/
-                await userManager.CreateAsync(user, password);
+            //    /*register user in database*/
+            //    await userManager.CreateAsync(user, password);
 
-                /*add user to specific role*/
-                await userManager.AddToRoleAsync(user, "Admin");
-            }
+            //    /*add user to specific role*/
+            //    await userManager.AddToRoleAsync(user, "Admin");
+            //}
         }
 
         app.UseEndpoints(endpoints =>
