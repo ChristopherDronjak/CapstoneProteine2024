@@ -36,7 +36,7 @@
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('ProteineDatabase', subscription().subscriptionId)))]",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('Proteine2024Database', subscription().subscriptionId)))]",
       "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
@@ -60,11 +60,11 @@
                 "name": "GP_S_Gen5",
                 "tier": "GeneralPurpose",
                 "family": "Gen5",
-                "capacity": 2
+                "capacity": 1
               },
-              "kind": "v12.0,user,vcore,serverless,freelimit",
+              "kind": "v12.0,user,vcore,serverless",
               "location": "[parameters('resourceLocation')]",
-              "name": "proteinedataserver/ProteineDatabase",
+              "name": "proteinedataserver/Proteine2024Database",
               "type": "Microsoft.Sql/servers/databases",
               "apiVersion": "2017-10-01-preview",
               "dependsOn": [
