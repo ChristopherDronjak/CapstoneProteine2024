@@ -91,8 +91,8 @@ public class Program
         {
             var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>();
 
-            string email = "admin@admin.com";
-            string password = "adminPass1!";
+            string email = "admin@gmail.com";
+            string password = "adminPassword@1";
 
             /*find account*/
             if (await userManager.FindByEmailAsync(email) == null)

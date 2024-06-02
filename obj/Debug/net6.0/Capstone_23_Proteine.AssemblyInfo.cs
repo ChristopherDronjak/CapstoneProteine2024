@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Capstone_23_Proteine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c226e1e35498509d11a6ed75cb8deb1378cb9ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0d6074b8b228cbf0e8ddc7dbf9c410ac3c3b7ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Capstone_23_Proteine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Capstone_23_Proteine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
