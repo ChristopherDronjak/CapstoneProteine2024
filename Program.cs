@@ -20,7 +20,7 @@ public class Program
         var services = builder.Services;
 
         // Retrieve SendGrid API key from Azure Vault
-        string vaultUri = "https://proteinekeyvault.vault.azure.net/";
+        string vaultUri = "https://proteineprotection.vault.azure.net/";
         string sendGridApiKeySecretName = "SendGridKey";
 
         var credential = new DefaultAzureCredential();
