@@ -1,0 +1,139 @@
+﻿
+@{
+    ViewData["Title"] = "ProteineHat";
+}
+
+<div style=" background-color:#ffff; padding:25px; border-radius:45px; box-shadow: 15px 15px 20px rgba(0,0,0,0.05);">
+
+<div class="row no-gutters" style="text-align: center ;">
+    <div class="col">
+        <div class="leftside1">
+                <h1 style="text-align: center ; font-size: 40px ; color: black">
+                Proteine Hat
+            </h1>
+            <br />
+            <br />        
+            <br />        
+            <br />        
+            <br />        
+            <br />            
+            <br />
+            <p style="text-align: center; padding-left: 50px;">
+
+                    At Proteine, we're not just about style; we're about functionality too. Our custom Proteine hats are meticulously crafted to offer not only impeccable style but also superb functionality. Made with premium materials, each hat is designed to provide a comfortable fit and feel, ensuring you can focus on your fitness goals without any distractions while repping the Proteine brand. Join us and become a part of one of the finest brands in the fitness space.
+            </p>
+        </div>
+        <div class="leftside2">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <h3 style="text-align: left ;">
+                    <b>
+                        Order Summary:
+                    </b>
+                </h3>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="ordersummary">
+                            <div class="ordersummarybody">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Product</th>
+                                            <th>Quantity</th>
+                                            <th>Price</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Proteine Hat</td>
+                                            <td>1</td>
+                                            <td>$50</td>
+                                            <td>$50</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4">Proteine Hat stocks low only 1 quantity allowed currently, more coming soon!</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="rightside1">
+            <img src="/Image/proteinehat.png" width="450px" height="450px" />
+            <br />
+            <br />
+
+        </div>
+        <div class="rightside2">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+
+            <h3 style="text-align: left ;">
+                <b>
+                    Shipping Address:
+                </b>
+            </h3>
+
+            <hr style="height 5px; width: 500px ;" />
+            <br />
+
+            <div style="margin-inline-start: 30px ; font-size :20px">
+
+
+                    <h5 style="text-align: left;">
+                        <b>
+                            <div id="addressError" style="color: red; display: none; margin-bottom: 5px;">Please enter your address.</div>
+                            <div>
+                                Address:
+                                <input type="text" id="addressInput" placeholder="Enter your address" style="margin-left: 10px;">
+                            </div>
+                        </b>
+                    </h5>
+                    <button onclick="navigateToPage()" style="margin-top: 10px;">Confirm</button>
+
+
+
+
+              
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+</div>
+
+
+<script>
+    function navigateToPage() {
+        var address = document.getElementById("addressInput").value;
+        var addressError = document.getElementById("addressError");
+        if (address.trim() === "") {
+            addressError.style.display = "block"; // Display error message
+        } else {
+            // Redirect to another action in HomeController
+            window.location.href = '@Url.Action("OrderConfirmed", "Home")';
+        }
+    }
+</script>

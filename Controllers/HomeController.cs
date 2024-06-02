@@ -263,6 +263,21 @@ namespace Capstone_23_Proteine.Controllers
             return View();
         }
 
+        public IActionResult ProteineHat()
+        {
+            return View();
+        }
+
+        public IActionResult BuyNow()
+        {
+            return View();
+        }
+
+        public IActionResult OrderConfirmed()
+        {
+            return View();
+        }
+
         // GET: /Home/Error
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
