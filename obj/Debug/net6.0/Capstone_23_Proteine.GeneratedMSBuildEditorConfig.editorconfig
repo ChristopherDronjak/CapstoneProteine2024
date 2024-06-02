@@ -202,6 +202,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/BuyNow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXlOb3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/Chicken_and_.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlja2VuX2FuZF8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -250,12 +254,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/OrderConfirmed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlckNvbmZpcm1lZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/Pie_vegg.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaWVfdmVnZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/ProteineHat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm90ZWluZUhhdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/nzbob/OneDrive/Documents/GitHub/CapstoneProteine2024/Views/Home/Rainbow_chicken.cshtml]
