@@ -3,23 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\models\\domain\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\models\\domain\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:models\\domain\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\models\\domain\\aboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\models\\domain\\aboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:models\\domain\\aboutme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\models\\domain\\foodintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\models\\domain\\foodintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:models\\domain\\foodintake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\models\\domain\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\models\\domain\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:models\\domain\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,15 +39,15 @@
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\views\\aboutme\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\views\\aboutme\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:views\\aboutme\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\models\\aboutmeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\models\\aboutmeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:models\\aboutmeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\data\\migrations\\20230605230626_harrysetgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\data\\migrations\\20230605230626_harrysetgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:data\\migrations\\20230605230626_harrysetgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\data\\migrations\\20230518232513_foreignkeyupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:data\\migrations\\20230518232513_foreignkeyupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\data\\migrations\\20230601225929_foodintakeupdate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -112,7 +120,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -124,7 +132,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAA4wKEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T03:45:24.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AboutMe.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\AboutMe\\AboutMe.cshtml",
               "RelativeDocumentMoniker": "Views\\AboutMe\\AboutMe.cshtml",
@@ -132,12 +153,11 @@
               "RelativeToolTip": "Views\\AboutMe\\AboutMe.cshtml",
               "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-01T07:24:04.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:24:04.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AboutMeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\AboutMeViewModel.cs",
               "RelativeDocumentMoniker": "Models\\AboutMeViewModel.cs",
@@ -145,12 +165,11 @@
               "RelativeToolTip": "Models\\AboutMeViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T07:23:58.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:23:58.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "FoodIntake.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\Domain\\FoodIntake.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\FoodIntake.cs",
@@ -158,12 +177,11 @@
               "RelativeToolTip": "Models\\Domain\\FoodIntake.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T07:23:29.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:23:29.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SetGoals.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\Domain\\SetGoals.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\SetGoals.cs",
@@ -171,12 +189,11 @@
               "RelativeToolTip": "Models\\Domain\\SetGoals.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T07:22:27.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:22:27.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\Domain\\UserProfile.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\UserProfile.cs",
@@ -184,12 +201,11 @@
               "RelativeToolTip": "Models\\Domain\\UserProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T07:22:07.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:22:07.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AboutMe.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\Domain\\AboutMe.cs",
               "RelativeDocumentMoniker": "Models\\Domain\\AboutMe.cs",
@@ -197,12 +213,11 @@
               "RelativeToolTip": "Models\\Domain\\AboutMe.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T07:21:46.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T07:21:46.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "20230602235527_Setgoals.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230602235527_Setgoals.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230602235527_Setgoals.cs",
@@ -214,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -222,12 +237,37 @@
               "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAHABAAAAAAAAAAAWwKwBAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T02:51:30.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T02:51:30.479Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:36:14.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T03:42:06.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -240,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "20230605221602_setgoalsAgain1.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230605221602_setgoalsAgain1.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230605221602_setgoalsAgain1.cs",
@@ -252,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "20230525030430_UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230525030430_UserProfile.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230525030430_UserProfile.cs",
@@ -264,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "20230603000037_Setgoals1.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230603000037_Setgoals1.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230603000037_Setgoals1.cs",
@@ -276,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "20230605223322_setGoals2Agian.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230605223322_setGoals2Agian.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230605223322_setGoals2Agian.cs",
@@ -288,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "20230605230626_harrysetgoals.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230605230626_harrysetgoals.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230605230626_harrysetgoals.cs",
@@ -296,12 +336,11 @@
               "RelativeToolTip": "Data\\Migrations\\20230605230626_harrysetgoals.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T02:51:28.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T02:51:28.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "20230518232513_ForeignKeyUpdate.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230518232513_ForeignKeyUpdate.cs",
@@ -313,19 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAmwH4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T05:36:14.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20230601225929_foodintakeupdate1.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230601225929_foodintakeupdate1.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230601225929_foodintakeupdate1.cs",
@@ -337,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "FoodIntakeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Models\\FoodIntakeViewModel.cs",
               "RelativeDocumentMoniker": "Models\\FoodIntakeViewModel.cs",
@@ -349,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20230518231102_addingTablesBackAgain.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\Migrations\\20230518231102_addingTablesBackAgain.cs",
               "RelativeDocumentMoniker": "Data\\Migrations\\20230518231102_addingTablesBackAgain.cs",
@@ -361,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -373,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -385,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "FoodIntake.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\FoodIntake\\FoodIntake.cshtml",
               "RelativeDocumentMoniker": "Views\\FoodIntake\\FoodIntake.cshtml",
@@ -397,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -409,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\nzbob\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
@@ -421,7 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\theek\\AppData\\Roaming\\Microsoft\\UserSecrets\\aspnet-Capstone_23_Proteine-87a4f698-a4e5-4100-8c58-88c9ece8eb69\\secrets.json",
@@ -433,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
