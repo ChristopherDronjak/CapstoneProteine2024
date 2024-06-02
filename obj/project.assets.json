@@ -11290,23 +11290,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\theek\\.nuget\\packages\\": {},
+    "C:\\Users\\GGPC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Capstone_23_Proteine.csproj",
+      "projectUniqueName": "P:\\bruvha\\Masesey_stuff_2024\\Greenclass\\CapstoneProteine2024\\Capstone_23_Proteine.csproj",
       "projectName": "Capstone_23_Proteine",
-      "projectPath": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\Capstone_23_Proteine.csproj",
-      "packagesPath": "C:\\Users\\theek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theek\\source\\repos\\ChristopherDronjak\\CapstoneProteine2024\\obj\\",
+      "projectPath": "P:\\bruvha\\Masesey_stuff_2024\\Greenclass\\CapstoneProteine2024\\Capstone_23_Proteine.csproj",
+      "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+      "outputPath": "P:\\bruvha\\Masesey_stuff_2024\\Greenclass\\CapstoneProteine2024\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\theek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
