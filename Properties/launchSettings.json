@@ -15,7 +15,7 @@
       "applicationUrl": "https://localhost:7116;http://localhost:5192",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "VaultUri": "https://proteineprotection.vault.azure.net/",
+        "VaultUri": "https://aintnoway.vault.azure.net/",
         "AZURE_USERNAME": "brendon.massey123@gmail.com"
       }
     },
@@ -24,7 +24,7 @@
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "VaultUri": "https://proteineprotection.vault.azure.net/",
+        "VaultUri": "https://aintnoway.vault.azure.net/",
         "AZURE_USERNAME": "brendon.massey123@gmail.com"
       }
     }
