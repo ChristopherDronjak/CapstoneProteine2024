@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|c:\\users\\nzbob\\onedrive\\documents\\github\\capstoneproteine2024\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\views\\home\\mydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:views\\home\\mydetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3760F5B5-809D-4C16-8986-0CE2CE58C9E7}|Capstone_23_Proteine.csproj|C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -168,7 +168,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -180,20 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\ContactUs.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
-              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\ContactUs.cshtml",
-              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGMAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T05:47:53.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BuyNow.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\BuyNow.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\BuyNow.cshtml",
@@ -205,20 +192,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKgBAAAAAAAAAAAAAMoBAAAfAAAA",
+              "ViewState": "AQIAAKgBAAAAAAAAAAAAAL0BAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-02T04:17:19.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -230,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -242,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -254,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Landing.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\Landing.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Landing.cshtml",
@@ -266,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MyDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\MyDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\MyDetails.cshtml",
@@ -278,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -290,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProteineHat.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\ProteineHat.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\ProteineHat.cshtml",
@@ -302,7 +289,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:36:14.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T05:47:53.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -314,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OrderConfirmed.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\OrderConfirmed.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\OrderConfirmed.cshtml",
@@ -326,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Spanish_pisto.cshtml",
               "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Views\\Home\\Spanish_pisto.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Spanish_pisto.cshtml",
@@ -431,18 +443,6 @@
               "ViewState": "AQIAAHABAAAAAAAAAAAWwKwBAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T02:51:30.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwF0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T05:36:14.151Z"
             },
             {
               "$type": "Document",
