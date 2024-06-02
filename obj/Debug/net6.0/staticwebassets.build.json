@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VPLdjn0U5eNhzl0e94g4obcfg3LZk+XKlw4OCoy4QKc=",
+  "Hash": "LyiangawyLXPyvck6UsEzU3spkCuiB6/06xbrxtUyek=",
   "Source": "Capstone_23_Proteine",
   "BasePath": "_content/Capstone_23_Proteine",
   "Mode": "Default",
@@ -2373,6 +2373,25 @@
       "OriginalItemSpec": "wwwroot\\Image\\proteinehat.png"
     },
     {
+      "Identity": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\ProteineHAtt.png",
+      "SourceId": "Capstone_23_Proteine",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\",
+      "BasePath": "_content/Capstone_23_Proteine",
+      "RelativePath": "Image/ProteineHAtt.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\ProteineHAtt.png"
+    },
+    {
       "Identity": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\ProteineLogo.png",
       "SourceId": "Capstone_23_Proteine",
       "SourceType": "Discovered",
@@ -2447,6 +2466,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Rainbow_chickenSalad.png"
+    },
+    {
+      "Identity": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\Screenshot 2024-06-02 175019.png",
+      "SourceId": "Capstone_23_Proteine",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\",
+      "BasePath": "_content/Capstone_23_Proteine",
+      "RelativePath": "Image/Screenshot 2024-06-02 175019.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Screenshot 2024-06-02 175019.png"
     },
     {
       "Identity": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\shoe.png",

@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\Image\\Profile.png"
     },
     {
+      "Id": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\ProteineHAtt.png",
+      "PackagePath": "staticwebassets\\Image\\ProteineHAtt.png"
+    },
+    {
       "Id": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\ProteineLogo.png",
       "PackagePath": "staticwebassets\\Image\\ProteineLogo.png"
     },
@@ -79,6 +83,10 @@
     {
       "Id": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\SOme_cryspy.png",
       "PackagePath": "staticwebassets\\Image\\SOme_cryspy.png"
+    },
+    {
+      "Id": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\Screenshot 2024-06-02 175019.png",
+      "PackagePath": "staticwebassets\\Image\\Screenshot 2024-06-02 175019.png"
     },
     {
       "Id": "C:\\Users\\nzbob\\OneDrive\\Documents\\GitHub\\CapstoneProteine2024\\wwwroot\\Image\\Sleep.png",
