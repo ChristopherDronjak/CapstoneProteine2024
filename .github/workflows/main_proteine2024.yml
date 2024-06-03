@@ -48,12 +48,16 @@ jobs:
           path: ${{ github.workspace }}/myapp
 
       - name: Login to Azure
-        run: az login
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          client-secret: ${{ secrets.AZURE_CLIENT_SECRET }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'Proteine2024'
+          app-name: 'Proteine2024'          
           slot-name: 'Production'
           package: ${{ github.workspace }}/myapp
