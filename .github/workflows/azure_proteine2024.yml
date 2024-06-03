@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - Proteine2024
 on:
   push:
     branches:
-      - azure
+      - main
   workflow_dispatch:
 
 jobs:
