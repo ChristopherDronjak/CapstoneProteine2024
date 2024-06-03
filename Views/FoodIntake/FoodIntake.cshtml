@@ -1,6 +1,7 @@
-﻿@model Capstone_23_Proteine.Models.FoodIntakeViewModel
+﻿@model List<Capstone_23_Proteine.Models.Domain.FoodDisplay>
 
 @{
+    ViewData["Title"] = "FoodIntake";
 }
 <div style="background-color:#FFFF; padding:50px; border-radius:25px;">
 	<div class="text-center">
@@ -33,10 +34,22 @@
                             <option value="Snack">Snack</option>
                         </select><br>
                     </div>
-                    <div class="mb-3">
-                        <label for="mealName" class="form-label">MealName</label>
-                        <input type="text" class="form-control" id="mealName" name="MealName" required>
-                    </div>
+                    
+                      <div class="mb-3">
+                        <div class="mb-3">
+                            <label for="mealName" class="form-label">Meal Name</label>
+                            <input class="form-control" type="text" list="displayItem" id="mealName" name="MealName" onchange="selectFood()" />
+                            <datalist id="displayItem" >@{
+                                foreach(var foodItem in ViewBag.Listoffood){
+                                    <option value="@foodItem.foodDisplay">@foodItem.foodDisplay</option>
+                                }
+                            }</datalist>
+                            
+                        </div>
+                                                        
+                    </div>    
+                                     
+                    
 
                     <div class="mb-3">
                         <label for="protein" class="form-label">Protein (g)</label>
@@ -77,7 +90,28 @@
                 }
 
                 return true; // Form Submits
+
+
             }
-        </script>
+            function selectFood() {
+                var selectedFoodName = document.getElementById("mealName").value;                
+                var pageModel = @Json.Serialize(Model);
+
+                
+                var selectedFoodItem = Array.from(pageModel).find(function (f) {
+                    return f.foodDisplay===selectedFoodName
+                });                
+
+                if (selectedFoodItem != null) {                    
+                    document.getElementById("protein").value = selectedFoodItem.proteinDisplay;
+                    document.getElementById("calories").value = selectedFoodItem.caloriesDisplay;
+                    document.getElementById("fat").value = selectedFoodItem.fatDisplay;
+                }   
+                console.log(selectedFoodName);
+                console.log(Array.from(pageModel));
+                console.log(selectedFoodItem)
+            }
+        </script>       
+        
     </div>
 </div>
