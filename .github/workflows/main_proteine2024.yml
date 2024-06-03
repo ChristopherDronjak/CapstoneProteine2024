@@ -48,12 +48,7 @@ jobs:
           path: ${{ github.workspace }}/myapp
 
       - name: Login to Azure
-        uses: azure/login@v1
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID }}
-          client-secret: ${{ secrets.AZUREAPPSERVICE_CLIENTSECRET }}
+        run: az login
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
