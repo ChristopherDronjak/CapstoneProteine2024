@@ -73,18 +73,18 @@ namespace Capstone_23_Proteine.Controllers
 
                 if (setGoals?.SetFat != null && totalFat >= int.Parse(setGoals.SetFat))
                 {
-                    ViewBag.FatMessage = "Warning: Total fat intake exceeds or equals the set fat goal!";
+                    ViewBag.FatMessage = "Warning: Total Fat intake exceeds or equals the set Fat goal!";
                 }
 
 
                 if (setGoals?.SetCalories != null && totalCalories >= int.Parse(setGoals.SetCalories))
                 {
-                    ViewBag.CaloriesMessage = "Warning: Total Calories intake exceeds or equals the set fat goal!";
+                    ViewBag.CaloriesMessage = "Warning: Total Calories intake exceeds or equals the set Calories goal!";
                 }
 
                 if (setGoals?.SetProtein != null && totalProtein >= int.Parse(setGoals.SetProtein))
                 {
-                    ViewBag.ProteinMessage = "Warning: Total Protein intake exceeds or equals the set fat goal!";
+                    ViewBag.ProteinMessage = "Warning: Total Protein intake exceeds or equals the set Protein goal!";
                 }
 
                 int notificationCount = 0; // Initialize the count
