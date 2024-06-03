@@ -3,6 +3,16 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black; /* Set the background color to black */
+        border-radius: 50%; /* Optional: make it look better by making it circular */
+        width: 30px; /* Optional: control the size */
+        height: 30px; /* Optional: control the size */
+    }
+</style>
+
 <div style="text-align: center; max-inline-size: 1900px;">
     <div class="row" style=" background-color:#ffff; padding:25px; border-radius:45px; box-shadow: 15px 15px 20px rgba(0.05,0.05,0.05,0.05);">
         <div class="col-3 border" style="border-radius:45px;">
@@ -413,10 +423,18 @@
 
 
                 </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#Food" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Food" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             
 
             </div>
+
 
         </div>
 

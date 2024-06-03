@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using System;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Capstone_23_Proteine.Controllers
 {
@@ -38,11 +39,41 @@ namespace Capstone_23_Proteine.Controllers
 
         // GET: /FoodIntake/FoodIntake
         [HttpGet]
-        public IActionResult FoodIntake()
+        public async Task<IActionResult> FoodIntake()
         {
-            // Render the FoodIntake view
-            return View();
+            //var foodList = (from food in applicationDbContext.FoodIntake
+            //                select new SelectListItem()
+            //                {
+            //                    Text = food.MealName,
+
+            //                    Value = food.ID.ToString(),
+            //                }).ToList();
+
+            //foodList.Insert(0, new SelectListItem()
+            //{
+            //    Text = "----Select----",
+            //    Value = String.Empty,
+            //});
+
+            //ViewBag.Listoffood = foodList;
+            //return View();
+
+            IQueryable<FoodDisplay> foodIntakeQuery = applicationDbContext.FoodIntake.Select(f => new FoodDisplay { proteinDisplay = f.Protein, caloriesDisplay = f.Calories, fatDisplay = f.Fat, foodDisplay = f.MealName });
+
+            var foodIntake = await foodIntakeQuery.ToListAsync();
+            ViewBag.Listoffood = foodIntake;
+            return View(foodIntake);
+
         }
+        //[HttpPost]
+        //public IActionResult FoodIntake(FoodDisplay foodList)
+        //{
+        //    var selectedValue = foodList.foodDisplay;
+        //    return View(foodList);
+        //}
+
+
+
 
         // POST: /FoodIntake/FoodIntake
         [HttpPost]

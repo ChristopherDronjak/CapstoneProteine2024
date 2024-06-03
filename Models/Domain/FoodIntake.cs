@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Capstone_23_Proteine.Models.Domain
 {
@@ -16,4 +17,18 @@ namespace Capstone_23_Proteine.Models.Domain
         // Navigation property to the associated IdentityUser
         public IdentityUser User { get; set; }
     }
+
+    public class FoodDisplay
+    {
+        public Guid Id { get; set; }
+        [Column("Protien")]
+        public int proteinDisplay { get; set; }
+        [Column("Calories")]
+        public int caloriesDisplay { get; set; }
+        [Column("Fat")]
+        public int fatDisplay { get; set; }
+        [Column("MealName")]
+        public string foodDisplay { get; set; }
+    }
+
 }
